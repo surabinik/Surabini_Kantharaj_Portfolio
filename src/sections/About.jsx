@@ -62,7 +62,31 @@ const About = () => {
 
               <div className="about-info-item">
                 <span className="about-info-label">Interests</span>
-                <span className="about-info-value">Business Analysis • Project Management • Business Systems Engineering • Information Systems • Business Process Improvement</span>
+                <ul style={{ 
+                  listStyle: 'none', 
+                  padding: 0, 
+                  marginTop: '0.4rem', 
+                  display: 'flex', 
+                  flexDirection: 'column', 
+                  gap: '0.4rem', 
+                  textAlign: 'left' 
+                }}>
+                  <li style={{ fontSize: '0.9rem', color: 'var(--text-primary)', position: 'relative', paddingLeft: '1rem' }}>
+                    <span style={{ position: 'absolute', left: 0, color: 'var(--primary-light)' }}>•</span> Business Analysis
+                  </li>
+                  <li style={{ fontSize: '0.9rem', color: 'var(--text-primary)', position: 'relative', paddingLeft: '1rem' }}>
+                    <span style={{ position: 'absolute', left: 0, color: 'var(--primary-light)' }}>•</span> Project Management
+                  </li>
+                  <li style={{ fontSize: '0.9rem', color: 'var(--text-primary)', position: 'relative', paddingLeft: '1rem' }}>
+                    <span style={{ position: 'absolute', left: 0, color: 'var(--primary-light)' }}>•</span> Business Systems Engineering
+                  </li>
+                  <li style={{ fontSize: '0.9rem', color: 'var(--text-primary)', position: 'relative', paddingLeft: '1rem' }}>
+                    <span style={{ position: 'absolute', left: 0, color: 'var(--primary-light)' }}>•</span> Information Systems
+                  </li>
+                  <li style={{ fontSize: '0.9rem', color: 'var(--text-primary)', position: 'relative', paddingLeft: '1rem' }}>
+                    <span style={{ position: 'absolute', left: 0, color: 'var(--primary-light)' }}>•</span> Business Process Improvement
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

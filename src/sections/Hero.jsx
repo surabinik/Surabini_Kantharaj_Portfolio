@@ -1,6 +1,7 @@
 import React from 'react';
 import { FiGithub, FiLinkedin, FiArrowRight, FiDownload } from 'react-icons/fi';
 import Button from '../components/Button';
+import surabiniPic from '../assets/surabini.jpg';
 
 const Hero = () => {
   const handleViewProjects = (e) => {
@@ -60,8 +61,10 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="hero-visual" aria-hidden="true">
-          <div className="hero-graphic" />
+        <div className="hero-visual">
+          <div className="hero-img-frame">
+            <img src={surabiniPic} alt="Surabini Kantharaj" />
+          </div>
         </div>
       </div>
     </section>
