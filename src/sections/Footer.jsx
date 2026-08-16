@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="footer" aria-label="Site Footer">
       <div className="container footer-content">
         <div style={{ fontSize: '1.25rem', fontWeight: '800' }}>
-          <span className="gradient-text">[YOUR NAME]</span>
+          <span className="gradient-text">Surabini Kantharaj</span>
         </div>
 
         <nav className="footer-nav" aria-label="Footer Quick Links">

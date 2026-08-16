@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="hero-content">
           <span className="hero-subtitle">Hi, my name is</span>
           <h1 className="hero-title">
-            <span className="gradient-text">[YOUR NAME]</span>
+            <span className="gradient-text">Surabini Kantharaj</span>
           </h1>
           <h2
             style={{
@@ -27,7 +27,7 @@ const Hero = () => {
               marginBottom: '1rem'
             }}
           >
-            Aspiring Business Analyst | Business Systems Engineering | Information Systems | Project Managemen
+            Aspiring Business Analyst | Business Systems Engineering | Information Systems | Project Management
           </h2>
           <p className="hero-description">
             I’m a Management and Information Technology undergraduate passionate about bridging the gap between business and technology. I’m interested in Business Analysis, Business Systems Engineering, Information Systems, and Project Management, with a focus on solving problems, improving processes, and creating meaningful technology-driven solutions.
