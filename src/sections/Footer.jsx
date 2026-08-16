@@ -28,7 +28,7 @@ const Footer = () => {
         </nav>
 
         <p className="footer-text">
-          &copy; {new Date().getFullYear()} [YOUR NAME]. All rights reserved. 
+          &copy; {new Date().getFullYear()} Surabini Kantharaj. All rights reserved.
           Portfolio designed for PPD II evaluation.
         </p>
       </div>

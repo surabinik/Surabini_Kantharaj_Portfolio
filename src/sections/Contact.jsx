@@ -19,7 +19,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     // Simulate submission state without misleading the user
     setStatus('success');
     setFormData({
@@ -34,7 +34,7 @@ const Contact = () => {
     <section id="contact">
       <div className="container">
         <SectionTitle title="Get In Touch" subtitle="Let's Connect" />
-        
+
         <div className="contact-container">
           {/* Contact Information Details */}
           <div className="contact-info">
@@ -49,7 +49,7 @@ const Contact = () => {
               <FiMail className="contact-info-icon" />
               <div className="contact-info-content">
                 <h4>Email</h4>
-                <p>[YOUR EMAIL]</p>
+                <p>surabinik@gmail.com</p>
               </div>
             </div>
 
@@ -57,7 +57,7 @@ const Contact = () => {
               <FiLinkedin className="contact-info-icon" />
               <div className="contact-info-content">
                 <h4>LinkedIn</h4>
-                <p>linkedin.com/in/[YOUR_LINKEDIN_USERNAME]</p>
+                <p>linkedin.com/in/surabini-kantharaj</p>
               </div>
             </div>
 
@@ -65,7 +65,7 @@ const Contact = () => {
               <FiGithub className="contact-info-icon" />
               <div className="contact-info-content">
                 <h4>GitHub</h4>
-                <p>github.com/[YOUR_GITHUB_USERNAME]</p>
+                <p>github.com/surabinik</p>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 className="form-input"
-                placeholder="[YOUR NAME]"
+                placeholder="Surabini Kantharaj"
                 required
               />
             </div>
@@ -95,7 +95,7 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 className="form-input"
-                placeholder="[YOUR EMAIL]"
+                placeholder="surabinik@gmail.com"
                 required
               />
             </div>
@@ -129,7 +129,7 @@ const Contact = () => {
 
             {status === 'success' && (
               <div className="form-status success" role="alert">
-                <strong>Submission Received!</strong> Since this is a client-only static portfolio, 
+                <strong>Submission Received!</strong> Since this is a client-only static portfolio,
                 your message has been captured in local state and will not be dispatched to a backend server.
               </div>
             )}
